@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    --Lakerspurple: #552583;
+    --Gold: #fdb927;
+    --Black: #000000;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
+    background-color: var(--Black);
+}
+
+header h1 {
+    font-family:'Indie Flower', cursive;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+header h2 {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 950px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+}
+
+section .biografia {
+    display: flex;
+}
+
+section .textoImagem {
+    background-color: #414141;
+    display: flex;
+    align-items: center;
+}
+
+.textoResumo {
+    margin: 50px;
+}
+
+.textoImagem {
+    color: #FFFFFF;
+}
+
+.textoImagem h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textoImagem p {
+    line-height: 1.5;
+    margin-bottom: 15px; 
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #414141;
+}
+
+.timeline h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #fdb927;
+    background-color: #552583;
+    font-weight: bold;
+}
+
+.listaCronologica {
+    width: 50%;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+.listaCronologica ul {
+    list-style-type: none;
+    color: #FFFFFF;
+    line-height: 1.5;
+}
+
+ul li span {
+    color: #fdb927;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footerSuperior {
+    text-align: center;
+    background-color: #552583;
+    height: 50px;
+}
+
+.footerSuperior p {
+    padding: 18px;
+    color: #fdb927;
+}
+
+.footerSuperior a {
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.footerInferior {
+    text-align: center;
+    background-color: #000000;
+    height: 50px;
+}
+
+.footerInferior p {
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.footerInferior a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+
+@media only screen and (max-width: 730px) {
+    figure img {
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .textoImagem {
+        flex-direction: column;
+    }
+
+    .listaCronologica  {
+        margin-bottom: 50px;
+    }
+
+    
+}
